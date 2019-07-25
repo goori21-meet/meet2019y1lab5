@@ -1,0 +1,20 @@
+import turtle
+r=50
+turtle.bgcolor("black")
+t1=turtle.Turtle()
+t2=turtle.Turtle()
+t3=turtle.Turtle()
+t4=turtle.Turtle()
+t5=turtle.Turtle()
+t1.color("yellow")
+t2.color("green")
+t3.color("red")
+t4.color("purple")
+t5.color("blue")
+t1.circle(r)
+t2.circle(r+50)
+t3.circle(r+100)
+t4.circle(r+150)
+t5.circle(r+200)
+
+turtle.mainloop(60)
